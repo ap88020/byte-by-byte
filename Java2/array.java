@@ -25,7 +25,7 @@ public class array {
         // System.out.println(marks.length);
         // System.out.println(marks[3]); 
 
-        int[][] marks = { {77,33,97}, {22,73,67} };
-        System.out.println(marks[1][2]);
+        // int[][] marks = { {77,33,97}, {22,73,67} };
+        // System.out.println(marks[1][2]);
     }
 }

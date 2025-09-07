@@ -1,0 +1,14 @@
+10  10
+20  20
+NaN 30
+40  40
+50  50
+
+
+linear 
+1-> Preserver data integerity 
+2-> Trends
+3-> Avoid data loss
+
+
+interpolate()

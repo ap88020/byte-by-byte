@@ -1,0 +1,15 @@
+1 -> columns , rows
+2 -> what types of?
+3 -> missing data?
+
+method -> info() -> give consise summery 
+
+ |  |  |  |  |
+ |  |  |  |  |
+ |  |  |  |  |
+
+ 1-> number of rows and columns
+ 2-> columns name
+ 3-> type -> int64 , float , object
+ 4-> non , null counts
+ 5-> memory usage of data the frame

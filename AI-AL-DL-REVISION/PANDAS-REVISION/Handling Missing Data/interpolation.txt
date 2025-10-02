@@ -1,0 +1,19 @@
+10
+20
+30
+40
+
+1000
+2000
+3000
+4000
+
+6000
+
+linear
+
+1- preserve data integerity
+2- smooth trends
+3- avoid data loos
+
+interpolate()

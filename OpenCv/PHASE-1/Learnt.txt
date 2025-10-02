@@ -1,0 +1,22 @@
+|---------------------------------------------------------------------------------|
+|                          import cv2                                             |
+|   --------------->Image<------------------|                                     |
+|      ///////Topic-1///////////                                                  |
+|  1-> cv2.imread("image path")                                                   |
+|                                                                                 |
+|      ////////Topic-2////////                                                    |
+|  2-> cv2.imshow("Title",image) .........show Image..........                    |
+|  3-> cv2.waitkey(0) ........wiat for key............                            |
+|  4-> cv2.destroyAllWindows() ..........close the window..........               |
+|                                                                                 |
+|      ///////////Topic-3//////////                                               |
+|  5-> cv2.imwrite("file_image_name",image)                                       |
+|                                                                                 |
+|      ///////////Topic-5//////////                                               |
+|  6-> hight,width,color = image.shape                                            |
+|---------------------------------------------------------------------------------|
+                                      |
+                                      |
+                                      |
+                                      |
+            ( imread->imsow->waitkey->destroyAllWindows->imwrite->shape )

@@ -1,0 +1,46 @@
+__________________________________________________________________________________________________
+|                                     Image-Resize-Shaping                                        |
+|                                ***********TOPiC-1************                                   |
+|    1-> cv2.resize(image , (width,hight))                                                        |
+|                                ***********TOPiC-2************                                   |
+|    2-> crope ,, -> image[y-axix-start: y-axis-end , x-axis-start:x-axis-end]                    |
+|                                       |                                                         |
+|                                    EXAMPLE                                                      |
+|                                       |                                                         |
+|                   ___________IMAGE[100:200,50:150]______________                                |
+|                              ***********TOPiC-2*****************                                |
+|   3-> matrix = cv2.getRotateMatrix2D(center,angle,scale)                                        |
+|                                        |                                                        |
+|                                     EXAMPLE                                                     |
+|              ____________center -> (touple(heigh,width) = image.shape)__________                |
+|                       ____________ Angle = 90degree , 20degree___________                       |
+|                      __________for-Zooming -> scale = 1.0,2.0,3.0____________                   |
+|                                                                                                 |
+|   4-> ratate = cv2.wrapAffine(original_image,matrix,(w,h))                                      |
+|                              ***********TOPiC-***************                                   |
+|   5-> horizontal = cv2.flip(original_image,1)                                                   |
+|    -> vertical = cv2.flip(original_image,0)                                                     |
+|    -> both =  cv2.flip(original_image,-1)                                                       |
+|_________________________________________________________________________________________________|
+                                                |
+                                                |
+___________________________________________________________________________________________________
+|                                     IMAGE-DRAWING-FUNCTIONS                                      |
+|                                    *********TOPiC-1*********                                     |
+|   1-> cv2.line(original_image,point-1,point-2,color,thickness)                                   |
+|                                          |                                                       |
+|                                       EXAMPLE                                                    |
+|                 _______point-1 = (start-x-axis,start-y-axis)->(x1,y1)______                      |
+|                 _______point-2 = (end-x-axis,end-y-axis)->(x2,y2)__________                      |
+|                       _______color = RGB(00,00,00)____________                                   |
+|                       _______Thickness = 4 or 5 , 6 ___________                                  |
+|                               **********TOPiC-2************                                      |
+|                                           |                                                      |
+|                                     Line-Rectangle                                               |
+|                                           |                                                      |
+|                                        EXAMPLE                                                   |
+|                                           |                                                      |
+|           2-> cv2.Rectangle(original_image,point-1,point-2,thickness,color)                      |
+|                                ***********Circle*************                                    |
+|           3-> cv2.Circle(original_image,(center),radius,color,thickness)                         |
+|           4-> cv2.putext(image,text,org,font,scale,color,thickness,)
